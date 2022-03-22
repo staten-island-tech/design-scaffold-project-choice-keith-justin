@@ -16,6 +16,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: aqua;
+}
+
 #header {
   font-size: 7rem;
   margin: 0 auto;
@@ -29,6 +33,7 @@ html {
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   border-style: dashed;
+  font-size: 15rem;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -39,4 +44,8 @@ html {
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+
+#description {
+  font-size: 5rem;
 }
