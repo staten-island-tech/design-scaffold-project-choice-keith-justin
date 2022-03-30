@@ -36,6 +36,18 @@ body {
   background-color: rgb(9, 212, 185);
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding: 10px;
+}
+
 .navheader {
   font-size: 5rem;
 }
@@ -61,7 +73,7 @@ body {
   margin: 0 auto;
   width: auto;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(228, 19, 88);
 }
 
 .card {
