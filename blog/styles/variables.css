@@ -17,7 +17,9 @@
   --h5: 1.5rem;
 }
 
-intentions h1 {
+/* intentions */
+
+h1 {
   font-size: var(--h1);
 }
 
