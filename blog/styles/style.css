@@ -26,10 +26,6 @@ body {
   transition: all 0.15s;
 }
 
-.slider {
-  display: flex;
-  justify-content: end;
-}
 .container {
   display: flex;
   padding: 1rem;
