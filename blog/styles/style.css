@@ -68,6 +68,14 @@ nav li {
 .about {
   padding: 1rem;
 }
+.img-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 50%;
+}
 
 #header {
   font-size: 5rem;
@@ -166,4 +174,9 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.context {
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
