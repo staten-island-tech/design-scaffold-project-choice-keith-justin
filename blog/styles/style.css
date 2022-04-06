@@ -37,6 +37,7 @@ html {
 }
 
 .navbar {
+  font-size: var(--h1);
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -54,15 +55,10 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding: 10px;
 }
 
 .navheader {
   font-size: 4rem;
-}
-
-.home {
-  padding-right: 1rem;
 }
 
 .news {
