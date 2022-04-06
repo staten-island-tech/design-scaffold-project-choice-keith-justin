@@ -1,3 +1,5 @@
+@import url(variables.css);
+
 *,
 body,
 html {
@@ -7,17 +9,13 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(20, 19, 19);
-}
-
 .btn {
   font-family: inherit;
   font-size: 35px;
   border-radius: 25px;
   border: 3px solid #479cd6;
-  color: rgb(233, 0, 175);
-  background-color: rgb(255, 253, 244);
+  color: var(--indigo);
+  background-color: var(--white);
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
@@ -30,10 +28,21 @@ body {
   display: flex;
   justify-content: end;
 }
+
+#header {
+  font-size: 7rem;
+  margin: 0 auto;
+  width: auto;
+  color: rgb(236, 236, 236);
+}
+
 .navbar {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
   display: flex;
   padding: 1rem;
-  background-color: rgb(9, 212, 185);
+  background-color: var(--indigo);
 }
 
 nav ul {
@@ -49,7 +58,7 @@ nav li {
 }
 
 .navheader {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .home {
@@ -66,14 +75,6 @@ nav li {
 
 .about {
   padding: 1rem;
-}
-
-#header {
-  font-size: 7rem;
-  margin: 0 auto;
-  width: auto;
-  text-align: center;
-  color: rgb(236, 236, 236);
 }
 
 .card {
