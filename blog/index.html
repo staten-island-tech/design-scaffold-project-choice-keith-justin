@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Greece Travel Blog</title>
   </head>
-  
+
   <body>
 
     <script type="module" src="./styles/style.css"></script>
@@ -22,18 +22,56 @@
   </ul>
 </nav>
 
-<div class="card">
-  <img class="img" src="public/greece-mainland.jpg" alt="" style="width:100%">
-  <div class="container">
-    <button class="btn" src="https://www.visitgreece.gr/mainland/"><b id="name">Mainland</b></button> 
-    <p id="description">Attica & Epirus & Macedonia</p> 
-    <button class="btn" src="https://www.visitgreece.gr/islands/"><b>Islands</b></button>
-    <p id="description">Argosaronic & Cyclades & Crete</p>
+    <header class="container">
+      <div>
+        <img src="public/greece-logo.png" alt="logo" class="logo" />
+      </div>
 
+      <nav class="navbar">
+        <ul class="navheader">
+          <li><a href="https://www.visitgreece.gr/">Home</a></li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=13bcVtXcdo0">About</a>
+          </li>
+          <li><a href="">Blog</a></li>
+          <li><a href="./nested/products.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
   </div>
   
 </div>
+    <div class="card">
+      <div class="img-con">
+        <img class="img" src="public/greece-mainland.jpg" alt="" />
+      </div>
 
+      <div class="context">
+        <button class="btn">
+          <b id="name" href="https://www.visitgreece.gr/mainland/">Mainland</b>
+        </button>
+        <p id="description">
+          Greece is a popular destination not only because of its amazing
+          islands but also because the mainland offers plenty of options for a
+          memorable Mediterranean holiday! Explore unspoilt fishing villages
+          full of tranquil charm, tower towns, traditional stone built villages
+          or try the exciting city breaks on offer. Visit archaeological sites,
+          learn more about the country's fascinating culture, travel along the
+          spectacular coastline and enjoy its picture-perfect scenery!
+        </p>
+        <button class="btn">
+          <b href="https://www.visitgreece.gr/islands/">Islands</b>
+        </button>
+        <p id="description">
+          The country includes 6,000 islands and islets scattered in the Greek
+          Seas, of which only 227 islands are inhabited. The Greek coastline
+          offers a diverse landscape: beaches stretching over many kilometres,
+          sheltered bays and coves, sandy beaches, sand-dunes, pebble beaches,
+          wetlands and deltas, caves formed by seawater and dark-coloured sand
+          in volcanic areas.
+        </p>
+      </div>
+    </div>
   </body>
-  </html>
+</html>
