@@ -39,6 +39,10 @@
   h5 {
     font-size: var(--h5);
   }
+
+  h1 {
+    font-size: var(--h1);
+  }
 }
 
 /* intentions */
