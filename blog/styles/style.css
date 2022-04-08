@@ -29,11 +29,6 @@ html {
   justify-content: end;
 }
 
-#header {
-  font-size: 7rem;
-  margin: 0 auto;
-  width: auto;
-}
 .title {
   font-size: 2rem;
 }
@@ -44,7 +39,7 @@ html {
   width: 100%;
   display: flex;
   padding: 1rem;
-  background-color: var(--indigo);
+  background-color: var(--light-gray);
 }
 
 nav ul {
@@ -56,10 +51,6 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
-}
-
-.navheader {
-  font-size: 4rem;
 }
 
 .news {
