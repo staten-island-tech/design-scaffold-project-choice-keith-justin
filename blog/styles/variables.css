@@ -50,6 +50,10 @@ h5 {
   font-size: var(--h5);
 }
 
+body {
+  background-color: rgb(8, 150, 163);
+}
+
 .btn-products {
   font-family: inherit;
   font-size: 35px;
@@ -84,4 +88,7 @@ h5 {
   padding-left: 7rem;
   padding-right: 7rem;
   padding-bottom: 7rem;
+}
+
+.img-pro {
 }
