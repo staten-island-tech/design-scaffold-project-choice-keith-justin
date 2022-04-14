@@ -24,6 +24,11 @@ html {
   transition: all 0.15s;
 }
 
+#big-title {
+  color: var(--white);
+  font-size: 3rem;
+}
+
 .slider {
   display: flex;
   justify-content: end;
@@ -39,7 +44,7 @@ html {
   width: 100%;
   display: flex;
   padding: 1rem;
-  background-color: var(--light-gray);
+  background-color: var(--black);
 }
 
 nav ul {
