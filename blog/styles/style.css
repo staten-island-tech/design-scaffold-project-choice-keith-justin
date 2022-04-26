@@ -96,6 +96,7 @@ nav:visited {
   border-radius: 5px; /* 5px rounded corners */
   border-style: dashed;
   font-size: 15rem;
+  border-color: azure;
 }
 
 /* On mouse-over, add a deeper shadow */
