@@ -11,15 +11,13 @@ html {
 
 .btn {
   font-family: inherit;
-  font-size: 35px;
-  border-radius: 25px;
+  font-size: 3rem;
+  border-radius: 1.5rem;
   border: 3px solid var(--cyan);
   color: var(--indigo);
   background-color: var(--white);
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  margin: 20px 7px;
+  padding: 2rem 1rem;
+  margin: 1rem;
   cursor: pointer;
   transition: all 0.15s;
 }
