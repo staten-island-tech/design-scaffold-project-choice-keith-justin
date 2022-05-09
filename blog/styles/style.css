@@ -17,7 +17,6 @@ body {
   font-family: inherit;
   font-size: 35px;
   border-radius: 25px;
-  border: 3px solid #479cd6;
   color: rgb(233, 0, 175);
   background-color: rgb(255, 253, 244);
   padding: 15px 32px;
@@ -31,7 +30,7 @@ body {
 .container {
   display: flex;
   padding: 1rem;
-  background-color: rgb(9, 212, 185);
+  background-color: var(--cyan);
 }
 
 nav ul {
@@ -88,21 +87,19 @@ nav:visited {
   margin: 0 auto;
   width: auto;
   text-align: left;
-  color: rgb(228, 19, 88);
+  color: var(--red);
 }
 
 .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 var(--black);
   transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 5px;
   font-size: 15rem;
-  border-color: azure;
+  border-color: var(--white);
 }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 var(--black);
 }
 
 /* Add some padding inside the card container */
@@ -116,7 +113,13 @@ nav:visited {
 }
 
 .navbar {
-  font-size: xxx-large;
+  font-size: var(--h1);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  background-color: var(--black);
 }
 
 .context {
