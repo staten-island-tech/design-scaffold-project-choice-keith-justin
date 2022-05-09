@@ -17,12 +17,12 @@ body {
   font-family: inherit;
   font-size: 35px;
   border-radius: 25px;
-  color: rgb(233, 0, 175);
-  background-color: rgb(255, 253, 244);
+  color: var(--pink);
+  background-color: var(--white);
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
-  margin: 20px 7px;
+  margin: 2rem 1rem;
   cursor: pointer;
   transition: all 0.15s;
 }
