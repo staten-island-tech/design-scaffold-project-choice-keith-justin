@@ -1,3 +1,5 @@
+@import url(variables.css);
+
 *,
 body,
 html {
@@ -8,7 +10,7 @@ html {
 }
 
 body {
-  background-color: rgb(20, 19, 19);
+  background-color: var(--black);
 }
 
 .btn {
@@ -122,5 +124,3 @@ nav:visited {
   padding-right: 10rem;
   padding-bottom: 10rem;
 }
-
-#
