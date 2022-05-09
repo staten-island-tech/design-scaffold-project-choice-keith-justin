@@ -59,6 +59,7 @@ nav:visited {
 
 .home {
   padding: 1rem;
+  color: ;
 }
 
 .news {
@@ -109,7 +110,11 @@ nav:visited {
 
 #description {
   font-size: 2.5rem;
-  color: rgb(228, 50, 159);
+  color: var(--white);
+}
+
+#name {
+  font-weight: bold;
 }
 
 .navbar {
@@ -126,4 +131,9 @@ nav:visited {
   padding-left: 10rem;
   padding-right: 10rem;
   padding-bottom: 10rem;
+}
+
+#nav-list {
+  text-decoration: none;
+  color: aliceblue;
 }
