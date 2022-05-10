@@ -22,14 +22,9 @@ html {
   transition: all 0.15s;
 }
 
-#big-title {
+#big-boy {
   color: var(--white);
   font-size: 3rem;
-}
-
-.slider {
-  display: flex;
-  justify-content: end;
 }
 
 .title {
@@ -43,6 +38,9 @@ html {
   display: flex;
   padding: 1rem;
   background-color: var(--black);
+  font-size: xxx-large;
+  display: flex;
+  justify-content: end;
 }
 
 nav ul {
@@ -87,27 +85,23 @@ nav li {
   color: rgb(228, 50, 159);
 }
 
-.navbar {
-  font-size: xxx-large;
-}
-
 /* The switch - the box around the slider */
-.switch {
+/* .switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
-}
+} */
 
 /* Hide default HTML checkbox */
-.switch input {
+/* .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
 /* The slider */
-.slider {
+/* .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -146,10 +140,31 @@ input:checked + .slider:before {
 }
 
 /* Rounded sliders */
-.slider.round {
+/* .slider.round {
   border-radius: 34px;
 }
 
 .slider.round:before {
   border-radius: 50%;
+}  */
+
+#link-1 {
+  display: flex;
+  margin-left: 31rem;
+  padding: 1rem;
+}
+#link-2 {
+  display: flex;
+  margin-left: 5rem;
+  padding: 1rem;
+}
+#link-3 {
+  display: flex;
+  margin-left: 5rem;
+  padding: 1rem;
+}
+#link-4 {
+  display: flex;
+  margin-left: 5rem;
+  padding: 1rem;
 }
