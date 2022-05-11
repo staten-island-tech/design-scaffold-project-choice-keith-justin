@@ -40,10 +40,10 @@ html {
   background-color: var(--black);
   font-size: xxx-large;
   display: flex;
-  justify-content: end;
+  justify-content: start;
 }
 
-nav ul {
+/* nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -52,7 +52,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
-}
+} */
 
 .news {
   padding: 1rem;
@@ -148,23 +148,15 @@ input:checked + .slider:before {
   border-radius: 50%;
 }  */
 
+#link {
+  margin-left: auto;
+  padding: 1rem;
+}
+
 #link-1 {
-  display: flex;
-  margin-left: 31rem;
   padding: 1rem;
 }
+
 #link-2 {
-  display: flex;
-  margin-left: 5rem;
-  padding: 1rem;
-}
-#link-3 {
-  display: flex;
-  margin-left: 5rem;
-  padding: 1rem;
-}
-#link-4 {
-  display: flex;
-  margin-left: 5rem;
   padding: 1rem;
 }
