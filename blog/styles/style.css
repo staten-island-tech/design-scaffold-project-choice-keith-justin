@@ -155,8 +155,15 @@ input:checked + .slider:before {
 
 #link-1 {
   padding: 1rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-#link-2 {
-  padding: 1rem;
+#link:hover {
+  box-shadow: inset 100px 0 0 0 var(--red);
+  color: var(--white);
+}
+
+#link-1:hover {
+  box-shadow: inset 100px 0 0 0 var(--red);
+  color: white;
 }
