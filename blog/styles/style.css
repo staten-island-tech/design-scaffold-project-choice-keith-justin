@@ -23,8 +23,9 @@ html {
 }
 
 #big-boy {
-  color: var(--white);
+  color: var(--dark-brown);
   font-size: 3rem;
+  padding-top: 1rem;
 }
 
 .title {
@@ -37,7 +38,7 @@ html {
   width: 100%;
   display: flex;
   padding: 1rem;
-  background-color: var(--black);
+  background-color: var(--beige);
   font-size: xxx-large;
   display: flex;
   justify-content: start;
@@ -54,21 +55,9 @@ nav li {
   margin-left: 70px;
 } */
 
-.news {
-  padding: 1rem;
-}
-
-.contact {
-  padding: 1rem;
-}
-
-.about {
-  padding: 1rem;
-}
-
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 1rem 0 var(--black);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   border-style: solid;
@@ -78,11 +67,6 @@ nav li {
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 var(--black);
-}
-
-#description {
-  font-size: 5rem;
-  color: rgb(228, 50, 159);
 }
 
 /* The switch - the box around the slider */
@@ -151,6 +135,7 @@ input:checked + .slider:before {
 #link {
   margin-left: auto;
   padding: 1rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 #link-1 {
@@ -158,12 +143,24 @@ input:checked + .slider:before {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+#link-1:link {
+  text-decoration: none;
+}
+#link-1:visited {
+  text-decoration: none;
+}
+
 #link:hover {
-  box-shadow: inset 100px 0 0 0 var(--red);
+  box-shadow: inset 7.1rem 0 0 0 var(--caramel);
   color: var(--white);
 }
 
 #link-1:hover {
-  box-shadow: inset 100px 0 0 0 var(--red);
-  color: white;
+  box-shadow: inset 7rem 0 0 0 var(--caramel);
+  color: var(--white);
+  text-decoration: none;
+}
+
+#link-1:active {
+  text-decoration: none;
 }
