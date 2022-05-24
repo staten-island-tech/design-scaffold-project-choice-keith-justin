@@ -33,32 +33,15 @@ html {
   font-size: 2rem;
 }
 .navbar {
-  font-size: var(--h1);
+  font-size: var(--h2);
   overflow: hidden;
   position: fixed;
   width: 100%;
   display: flex;
   padding: 1rem;
   background-color: var(--beige);
-  font-size: xxx-large;
-  display: flex;
   justify-content: start;
 }
-
-a {
-  text-decoration: none;
-}
-
-/* nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-} */
 
 .card {
   /* Add shadows to create the "card" effect */
@@ -69,7 +52,6 @@ nav li {
   font-size: 15rem;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 var(--black);
 }
@@ -156,7 +138,7 @@ input:checked + .slider:before {
 }
 
 #link:hover {
-  box-shadow: inset 7.1rem 0 0 0 var(--caramel);
+  box-shadow: inset 7rem 0 0 0 var(--caramel);
   color: var(--white);
 }
 
@@ -175,4 +157,8 @@ input:checked + .slider:before {
   margin-right: 2rem;
   margin-bottom: 3rem;
   font-size: large;
+}
+
+#home {
+  margin: 2rem;
 }
