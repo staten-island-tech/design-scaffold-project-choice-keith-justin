@@ -54,11 +54,6 @@ html {
   justify-content: start;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(52, 177, 135);
-}
-
 /* nav ul {
   margin: 0;
   padding: 0;
@@ -198,5 +193,5 @@ input:checked + .slider:before {
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 3rem;
-  font-size: large;
+  font-size: 3rem;
 }
