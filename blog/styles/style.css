@@ -29,6 +29,15 @@ html {
   padding-top: 1rem;
 }
 
+#little-boy {
+  color: aliceblue;
+  font-size: 3rem;
+  padding-top: 1rem;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+}
+
 .title {
   font-size: 2rem;
 }
@@ -169,6 +178,20 @@ input:checked + .slider:before {
 
 #link-1:active {
   text-decoration: none;
+}
+
+.img {
+  max-width: 200rem;
+  display: flex;
+  justify-content: center;
+}
+
+.regions-header {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 #description {
