@@ -1,7 +1,7 @@
 :root {
   --white: #ffff;
-  --greek: #0D5EAF;
-  --light-blue:#476dcc;
+  --greek: #0d5eaf;
+  --light-blue: #476dcc;
   --black: #000;
   --yellow: ##fbbd2c;
   --red: #e83845;
@@ -23,34 +23,27 @@
   --h4: 1.625rem;
   --h5: 1.225rem;
   --h6: 0.865rem;
-
-  h1 {
-    font-size: var(--h1);
-  }
-
-  h2 {
-    font-size: var(--h2);
-  }
-
-  h3 {
-    font-size: var(--h3);
-  }
-
-  h4 {
-    font-size: var(--h4);
-  }
-
-  h5 {
-    font-size: var(--h5);
-  }
-
-  h6{
-    font-size: var(--h6);
-  }
-
-  h1 {
-    font-size: var(--h1);
-  }
+}
+h1 {
+  font-size: var(--h1);
 }
 
+h2 {
+  font-size: var(--h2);
+}
 
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h6 {
+  font-size: var(--h6);
+}
