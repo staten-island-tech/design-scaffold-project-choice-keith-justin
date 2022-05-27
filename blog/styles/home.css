@@ -9,6 +9,19 @@ html {
   box-sizing: border-box;
 }
 
+.navbar-home {
+  font-size: var(--h1);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  background-color: var(--beige);
+  font-size: xxx-large;
+  display: flex;
+  justify-content: start;
+}
+
 .h1 {
   font-family: inherit;
   font-size: 3rem;
