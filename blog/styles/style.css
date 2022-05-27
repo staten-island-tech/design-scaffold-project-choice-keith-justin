@@ -20,7 +20,7 @@ a {
 }
 
 #title {
-  font-size: var(--h2);
+  font-size: var(--h3);
   padding: 0.5rem;
 }
 
@@ -136,7 +136,7 @@ hr {
 }
 
 #card-description {
-  font-size: var(--h6);
+  font-size: var(--h5);
 }
 
 #small {
@@ -160,7 +160,7 @@ hr {
 
 #details {
   padding: 0.5rem;
-  font-size: var(--h6);
+  font-size: var(--h5);
 }
 
 #foodcard {
@@ -203,7 +203,7 @@ hr {
   color: var(--white);
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
   .top {
     width: 90%;
   }
@@ -213,11 +213,9 @@ hr {
   .lower {
     width: 90%;
   }
-
   #content {
     width: 90%;
   }
-
   .food {
     width: 90%;
   }
