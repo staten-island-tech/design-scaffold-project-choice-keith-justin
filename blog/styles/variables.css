@@ -1,5 +1,7 @@
 :root {
   --white: #ffff;
+  --greek: #0D5EAF;
+  --light-blue:#476dcc;
   --black: #000;
   --yellow: ##fbbd2c;
   --red: #e83845;
@@ -7,7 +9,7 @@
   --indigo: #746ab0;
   --cyan: #288ba8;
   --dark-gray: #262626;
-  --light-gray: #727272;
+  --light-gray: #cdcdcd;
   --milky-white: #f7e7ca;
   --beige: #d1b38d;
   --caramel: #ba661d;
@@ -17,9 +19,10 @@
   /*Typography*/
   --h1: 7.594rem;
   --h2: 5.063rem;
-  --h3: 3.375rem;
-  --h4: 2.25rem;
-  --h5: 1.5rem;
+  --h3: 3.675rem;
+  --h4: 1.625rem;
+  --h5: 1.225rem;
+  --h6: 0.865rem;
 
   h1 {
     font-size: var(--h1);
@@ -41,9 +44,13 @@
     font-size: var(--h5);
   }
 
+  h6{
+    font-size: var(--h6);
+  }
+
   h1 {
     font-size: var(--h1);
   }
 }
 
-/* intentions */
+

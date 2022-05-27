@@ -4,49 +4,110 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Greece Travel Blog</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+    rel="stylesheet"/>
+    <title>Greece Blog</title>
   </head>
-
   <body>
       <script type="module" src="./styles/style.css"></script>
-    <header>
-      <nav class="navbar">
-        <h1 id="big-boy">Visit Greece</h1>
-          <h2 id="link"><a href="https://www.youtube.com/watch?v=13bcVtXcdo0">Home</a></h2>
-          <img id="home" src="/coolhome.png" alt="">
-          <h2 id="link-1"><a href="./nested/blog.html">Blog</a></h2>  
-      </nav>
-    </header>
+        
+      <div class="top">
+        <header>
+          <nav id="navigation">
+            <div id="title"><h1>Visit Greece</h1></div>
+            <div id="list">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Food</a></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <section id="featured">
+        <div id="feat-desc">
+          <div id="big-boy">
+              <h2>Greek architecture is more beautiful  than you can even imagine</h2>
+            </div>
+          <div id="read"><a href="">Learn More</a></div>
+        </div>
+        <div id="big-image"><img src="/santorini-architecture.jpg" alt="santorini landscape">
+        </div>
+      </section>
+<hr>
+
+<p id="arch">Architecture</p>
+  <section class="content">
+    <div class="places">
+      <div class="card">
+        <div id="box"><img id="small" src="/greece4.jpg" alt="Santorini"></div>
+        <p id="card-title">Santorini Houses</p> 
+          <p id="card-description">Santorini is a iconic Greek city known for its white houses and landscape. It is now a famous tourist spot.
+          </p>
+          <a href="">Learn More</a>
+      </div>
 
     <div class="card">
-      <div class="img-con">
-        <img class="img" src="/greece-mainland.jpg" alt="" />
+      <div id="box"><img id="small" src="/greece5.jpg" alt="Partheon"></div>
+      <p id="card-title">Greek Partheon</p> 
+        <p id="card-description">Ancient but magnificent, the Partheon was once a venerated temple dedicated to Athena and her followers.
+        </p>
+        <a href="">Learn More</a>
+    </div>
+  
+  <div class="card">
+    <div id="box"><img id="small" src="/greece6.jpg" alt="Theatre of Herod Atticus"></div>
+    <p id="card-title">Theatre of Herod Atticus</p> 
+      <p id="card-description">Widely considered to be one of the best open theatres in the world, the theatre was renovated in 1950. 
+      </p>
+      <a href="">Learn More</a>
+  </div>
+
+  <div class="card">
+    <div id="box"><img id="small" src="/greece7.jpg" alt="Temple of Isis"></div>
+    <p id="card-title">Temple of Isis </p> 
+    <p id="card-description">The Temple of Isis was built in the 2nd Century B.C. and was originally meant to protect seafarers from harm.
+    </p>
+    <a href="">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<hr>
+<p id="food">Food</p>
+<div class="lower">
+    <div id="foodcard">
+      <p id="dish">Moussaka</p>
+      <p id="details">Often times called the "Greek Lasagna."</p>
+      <img id="food-img" src="/moussaka.jpg" alt="Moussaka">
+    </div>
+      <div id="foodcard">
+        <p id="dish">Fasolatha</p>
+        <p id="details">Fasolatha is a winter comfort food in Greece.</p>
+        <img id="food-img" src="/fasolatha.jpg" alt="Fasolatha">
       </div>
-      <div class="context">
-        <h1 class="h1">
-          <p id="name" href="">Mainland</p>
-        </h1>
-        <p id="description">
-          Greece is a popular destination not only because of its amazing
-          islands but also because the mainland offers plenty of options for a
-          memorable Mediterranean holiday! Explore unspoiled fishing villages
-          full of tranquil charm, tower towns, traditional stone built villages
-          or try the exciting city breaks on offer. Visit archaeological sites,
-          learn more about the country's fascinating culture, travel along the
-          spectacular coastline and enjoy its picture-perfect scenery!
-        </p>
-        <h1 class="h1">
-          <p href="">Islands</p>
-        </h1>
-        <p id="description">
-          The country includes 6,000 islands and islets scattered in the Greek
-          Seas, of which only 227 islands are inhabited. The Greek coastline
-          offers a diverse landscape: beaches stretching over many kilometres,
-          sheltered bays and coves, sandy beaches, sand-dunes, pebble beaches,
-          wetlands and deltas, caves formed by seawater and dark-coloured sand
-          in volcanic areas.
-        </p>
+      <div id="foodcard">
+        <p id="dish">Gyros</p>
+        <p id="details">A Greek classic made up of pita bread and meat.</p>
+        <img id="food-img" src="/gyro.jpg" alt="gyros">
+      </div>
+      <div id="foodcard">
+        <p id="dish">Dolmades</p>
+        <p id="details">Stuffed grape leaves with surprising flavor!</p>
+        <img id="food-img" src="/dolmades.jpg" alt="dolomade">
       </div>
     </div>
-  </body>
+
+<section class="footer">
+	<div id="contact">
+		<p>Want to know more? Shoot us an email or message our Insta!
+    </p><button id="write" href="#">WRITE TO US</button>
+    <img id="favicon" src="/insta.jpg" alt="instagram">
+	</div>
+</section>
+
+</body>
 </html>
