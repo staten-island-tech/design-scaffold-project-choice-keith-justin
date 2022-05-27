@@ -7,133 +7,221 @@ html {
   padding: 0;
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: "Lora", serif;
 }
 
-body {
-  background-color: var(--black);
+a{
+  text-decoration: none;
 }
-
-.btn {
-  font-family: inherit;
-  font-size: 35px;
-  border-radius: 25px;
-  color: var(--pink);
-  background-color: var(--white);
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  margin: 2rem 1rem;
-  cursor: pointer;
-  transition: all 0.15s;
-}
-
-.container {
-  display: flex;
-  padding: 1rem;
-  background-color: var(--cyan);
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding: 10px;
-}
-
-nav:visited {
-}
-
-.logo {
-  float: left;
-  width: 10rem;
-}
-
-.navheader {
-  font-size: 5rem;
-}
-
-.home {
+ .top{
+	margin: 0 auto;
+  background: linear-gradient(95deg, var(--light-blue) -1%, var(--greek) 99%);
   padding: 1rem;
   color: ;
 }
 
-.news {
-  padding: 1rem;
+#title{
+  font-size: var(--h2);
+  padding: .5rem;
 }
 
-.contact {
-  padding: 1rem;
-}
-
-.about {
-  padding: 1rem;
-}
-.img-con {
-  display: flex;
-  justify-content: center;
+#navigation{
+  width: 100%;
+	height: 4rem;
+	display: flex;
   align-items: center;
 }
-.img {
-  padding-top: 5rem;
-  width: 50%;
+
+#list {
+	display: flex;
+  margin-left: auto;
+	justify-content: center;
+  font-weight: 900;
+  font-size: var(--h2);
+}
+#list li {
+	display: inline;
+	padding: 1rem;
+	position: relative;
+}
+#list li:after {
+	content: "";
+	width: .25rem;
+	height: .25rem ;
+	background: var(--light-gray);
+	position: absolute;
+	top: 2.4rem;
+	right: -.6rem;
+	transform: translate();
+}
+#list li:last-child:after {
+	display: none;
 }
 
-#header {
-  font-size: 5rem;
-  margin: 0 auto;
-  width: auto;
-  text-align: left;
-  color: var(--red);
+#list li a {
+	color: var(--dark-gray);
+	position: relative;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 var(--black);
-  transition: 0.3s;
-  border-radius: 5px;
-  font-size: 15rem;
+#list li a:after {
+	content: "";
+	width: 0;
+	height: 0.125rem;
+	background: var(--dark-gray);
+	position: absolute;
+	left: 0;
+	bottom: -.3rem;
+	transition: 0.4s ease-in-out;
+}
+#list li a:hover:after {
+	width: 100%;
+}
+
+#featured {
+  margin: 2rem;
+  padding-top: 1rem;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+#big-boy {
+  color: var(--white);
+  font-size: var(--h3);
+  margin-left: 1rem;
+}
+
+#big-image{
+  max-width: 70%;
+  margin: 1rem;
+  opacity: .7;
+}
+
+#feat-desc {
+	font-family: "Lora", serif;
+	font-weight: 700;
+	font-size: var(--h3);
+	background-color: var(--greek);
+	display: inline;
+	padding: 1rem;
+	border-radius: 1.5rem;
+}
+
+#read{
+margin: 1.5rem;
+  
+}
+hr { 
+  margin: 1.5rem;
+
+} 
+
+.content{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.places {
+	margin: 1.25rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2.5rem 1.25rem; 
+}
+
+#arch, #food{
+  text-align: center;
+  font-size: var(--h3);
+}
+
+#card-title{
+  font-size: var(--h4);
+  font-weight: 900;
+}
+
+#card-description{
+  font-size: var(--h6);
+}
+
+#small{
+  width: 44rem;
+  height: 30rem;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-between;
+	width: auto;
+  margin: 3rem;
+	height: 25rem;
+	background: var(--light-blue);
+	padding: 1.5rem;
+}
+
+#dish{
+  font-size: var(--h4);
+}
+
+#details{
+  padding: .5rem ;
+  font-size: var(--h6);
+}
+
+#foodcard {
+  text-align: center;
+}
+
+#food-img{
+  width: 20rem;
+  height: 15rem;
+}
+
+.footer {
+	width: 100%;
+	height: 8rem;
+	background: linear-gradient(95deg, var(--light-blue) -1%, var(--greek) 99%);
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  font-size: var(--h4);
+  color: var(--white)
+}
+
+#favicon{
+  max-width: 2rem;
+  max-height: 2rem;
+  vertical-align: middle;
+}
+
+#contact{
+	font-size: 2rem;
+  text-align: center;
+}
+
+#write{
+  margin: 1rem;
+  padding: .3rem;
+  background-color: transparent;
   border-color: var(--white);
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 var(--black);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
-
-#description {
-  font-size: 2.5rem;
+  cursor: pointer;
   color: var(--white);
 }
 
-#name {
-  font-weight: bold;
-}
+@media all and (max-width: 900px) {
+	.top {
+		width: 90%;
+	}
+	.featured {
+		width: 90%;
+  }
+  .lower{
+    width: 90%;
+  }
 
-.navbar {
-  font-size: var(--h1);
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  display: flex;
-  padding: 1rem;
-  background-color: var(--black);
-}
+  #content{
+    width: 90%;
+  }
 
-.context {
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-bottom: 10rem;
+.food{  
+  width: 90%;
 }
-
-#nav-list {
-  text-decoration: none;
-  color: aliceblue;
 }
