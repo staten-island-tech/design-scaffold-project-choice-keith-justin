@@ -11,51 +11,50 @@ html {
 }
 
 a {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
-  #isis {
-    display: flex;
-    margin-left: auto;
-    justify-content: center;
-    font-weight: 900;
-    font-size: var(--h2);
-  }
-  #isis li {
-    display: inline;
-    padding: 1rem;
-    position: relative;
-  }
-  #isis li:after {
-    content: "";
-    width: 0.25rem;
-    height: 0.25rem;
-    background: var(--light-gray);
-    position: absolute;
-    top: 2.4rem;
-    right: -0.6rem;
-    transform: translate();
-  }
-  #isis li:last-child:after {
-    display: none;
-  }
-  
-  #isis li a {
-    color: var(--dark-gray);
-    position: relative;
-  }
-  
-  #isis a:after {
-    content: "";
-    width: 0;
-    height: 0.125rem;
-    background: var(--dark-gray);
-    position: absolute;
-    left: 0;
-    bottom: -0.3rem;
-    transition: 0.4s ease-in-out;
-  }
-  #isis li a:hover:after {
-    width: 100%;
-  }
-  
+#isis {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  font-weight: 900;
+  font-size: var(--h2);
+}
+#isis li {
+  display: inline;
+  padding: 1rem;
+  position: relative;
+}
+#isis li:after {
+  content: "";
+  width: 0.25rem;
+  height: 0.25rem;
+  background: var(--light-gray);
+  position: absolute;
+  top: 2.4rem;
+  right: -0.6rem;
+  transform: translate();
+}
+#isis li:last-child:after {
+  display: none;
+}
+
+#isis li a {
+  color: var(--dark-gray);
+  position: relative;
+}
+
+#isis a:after {
+  content: "";
+  width: 0;
+  height: 0.125rem;
+  background: var(--dark-gray);
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  transition: 0.4s ease-in-out;
+}
+#isis li a:hover:after {
+  width: 100%;
+}
