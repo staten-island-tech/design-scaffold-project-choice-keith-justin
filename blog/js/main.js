@@ -12,16 +12,35 @@ import "../styles/style.css";
 // });
 
 gsap.from(".top", {
-  duration: 1,
+  duration: 2,
   y: "-100%",
   x: 2000,
   ease: "bounce",
-  scrollTrigger: "#arch",
 });
 
 gsap.from("#featured", {
   duration: 1,
   delay: 1,
   x: 2000,
-  scrollTrigger: "#food",
 });
+
+gsap.from("#arch", {
+  duration: 1,
+  delay: 2,
+  x: "-100vw",
+  ease: "power2.in",
+});
+
+gsap.from(".content", {
+  duration: 1,
+  delay: 2,
+  x: "-100%",
+  ease: "power",
+});
+
+gsap.from("#food", {
+  durtion: 1,
+  delay: 3,
+});
+
+gsap.to("#button2", {});
