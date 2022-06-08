@@ -39,8 +39,21 @@ gsap.from(".content", {
 });
 
 gsap.from("#food", {
-  durtion: 1,
-  delay: 3,
+  duration: 1,
+  delay: 1,
+  x: "-100vw",
+  ease: "power2.in",
 });
 
-gsap.to("#button2", {});
+gsap.from(".food-content", {
+  duration: 1,
+  delay: 1,
+  x: "-100vw",
+  ease: "power2.in",
+});
+
+gsap.from(".lower", {
+  duration: 1,
+  delay: 3,
+  ease: "elastic",
+});
