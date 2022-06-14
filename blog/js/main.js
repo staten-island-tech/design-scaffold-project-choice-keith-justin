@@ -1,15 +1,17 @@
 import "../styles/style.css";
 
-// window.onbeforeunload = function () {
-//   window.scrollTo(0, 0);
-// };
+// window.onscroll = function() {myFunction()};
 
-// document.getElementById("button2").addEventListener("click", function () {
-//   gsap.to(window, { duration: 1, scrollTo: "#arch" });
-// });
-// document.getElementById("button3").addEventListener("click", function () {
-//   gsap.to(window, { duration: 1, scrollTo: "#food" });
-// });
+// var navigation = document.getElementById("navbar");
+// var sticky = navigation.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navigation.classList.add("sticky")
+//   } else {
+//     navigation.classList.remove("sticky");
+//   }
+// }
 
 gsap.from(".top", {
   duration: 2,
@@ -40,7 +42,7 @@ gsap.from(".content", {
 
 gsap.from("#food", {
   duration: 1,
-  delay: 1,
+  delay: 2,
   x: "-100vw",
   ease: "power2.in",
 });
