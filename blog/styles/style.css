@@ -17,6 +17,10 @@ a {
   margin: 0 auto;
   background: linear-gradient(95deg, var(--light-blue) -1%, var(--greek) 99%);
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
 }
 
 #title {
@@ -208,7 +212,7 @@ hr {
 
 @media all and (max-width: 1000px) {
   .top {
-    width: 90%;
+    width: 100%;
   }
   .featured {
     width: 90%;
